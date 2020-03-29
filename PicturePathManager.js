@@ -1,7 +1,6 @@
-const lastPath = null;
-const PICTURE_PATH = "sdcard/Android/data/com.kakao.talk/contents/Mg==";
+const PICTURE_PATH = "/sdcard/Android/data/com.kakao.talk/contents/Mg==";
 
-function getLastPictureFolderPath(){
+getLastPictureFolderPath = _  => {
     var file = new java.io.File(PICTURE_PATH);
     var list = file.listFiles().sort(function(a, b){
         return b.lastModified() -a.lastModified();
@@ -9,7 +8,7 @@ function getLastPictureFolderPath(){
     return list[0].toString();
 }
 
-function getLastPictureFilePathFromFoldPath(path){
+getLastPictureFilePathFromFoldPath = (path) => {
     var file = new java.io.File(path);
     var list = file.listFiles().sort(function(a, b){
         return b.lastModified() - a.lastModified();
@@ -17,7 +16,7 @@ function getLastPictureFilePathFromFoldPath(path){
     return list;
 }
 
-function getLastPicture(){
+getLastPicture = _ => {
     try{
         var path = getLastPictureFilePathFromFoldPath(getLastPictureFolderPath());
         for(var i=0;i<path.length;i++){
