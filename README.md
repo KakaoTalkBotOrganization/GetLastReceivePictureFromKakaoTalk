@@ -1,6 +1,8 @@
 # GetLastReceivePictureFromKakaoTalk
 > GPFKT
 
+-----
+
 # Principle
 Get the most recently saved thumbnail by accessing the folder where the thumbnails of the photos received by KakaoTalk are stored.
 
