@@ -13,7 +13,7 @@ Get the most recently saved thumbnail by accessing the folder where the thumbnai
 
 # Usage
 1. Copy all source-code.
-2. Paste Copied source-code at your source. (top location)
+2. Paste copied source-code at your source. (top location)
 3. Call `getLastPicture()` method when if you want get Last Picture.
 > `getLastPicture()` method will return last thumbnail image's base64 string.
 
