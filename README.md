@@ -11,6 +11,8 @@ Get the most recently saved thumbnail by accessing the folder where the thumbnai
 1. [Download `Java`](https://github.com/sungbin5304/GetLastReceivePictureFromKakaoTalk/blob/master/PicturePathManager.java)
 2. [Download `JavaScript`](https://github.com/sungbin5304/GetLastReceivePictureFromKakaoTalk/blob/master/PicturePathManager.js)
 
+- [ ] 3. Download `Kotlin`
+
 # Usage
 1. Copy all source-code.
 2. Paste copied source-code at your source. (top location)
