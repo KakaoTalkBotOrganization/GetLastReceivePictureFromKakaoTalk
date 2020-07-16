@@ -18,4 +18,7 @@ Get the most recently saved thumbnail by accessing the folder where the thumbnai
 > `getLastPicture()` method will return last thumbnail image's base64 string.
 
 
+# License
+`GPFKT` license is under the [`Apache License`](https://github.com/KakaoTalkBotOrganization/GetLastReceivePictureFromKakaoTalk/blob/master/LICENSE).
+
 # Happy Coding :)
