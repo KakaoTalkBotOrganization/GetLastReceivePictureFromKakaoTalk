@@ -24,3 +24,5 @@ Get the most recently saved thumbnail by accessing the folder where the thumbnai
 `GPFKT` license is under the [`Apache`](https://github.com/KakaoTalkBotOrganization/GetLastReceivePictureFromKakaoTalk/blob/master/LICENSE) license.
 
 # Happy Coding :)
+
+### Written by [SungBin](https://github.com/sungbin5304)
