@@ -4,20 +4,18 @@
 -----
 
 # Principle
-Get the most recently saved thumbnail by accessing the folder where the thumbnails of the photos received by KakaoTalk are stored.
+Get the thumbnail image of most recently received photo from the folder where KakaoTalk stores the downloaded photos.
 
 # Download
 `GPFKT` is supported two language; `JavaScript` and `Java`
 - [x] [Download `Java`](https://github.com/sungbin5304/GetLastReceivePictureFromKakaoTalk/blob/master/PicturePathManager.java)
-- [x] [Download `JavaScript`](https://github.com/sungbin5304/GetLastReceivePictureFromKakaoTalk/blob/master/PicturePathManager.js)
+- [x] [Download `Javascript`](https://github.com/sungbin5304/GetLastReceivePictureFromKakaoTalk/blob/master/PicturePathManager.js)
 - [ ] Download `Kotlin`
 
 # Usage
-1. Copy all source-code.
-2. Paste copied source-code at your source. (top location)
-3. Call `getLastPicture()` method when if you want get Last Picture.
-> `getLastPicture()` method will return last thumbnail image's base64 string.
-
+1. Copy all the source code.
+2. Paste the source code at the top of your code.
+3. Call the `getLastPicture()` method to get the thumbnail image of most recently received photo as base64 string.
 
 # License
 `GPFKT` license is under the [`Apache`](https://github.com/KakaoTalkBotOrganization/GetLastReceivePictureFromKakaoTalk/blob/master/LICENSE) license.
