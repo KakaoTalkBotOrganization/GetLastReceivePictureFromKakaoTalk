@@ -24,4 +24,4 @@ Get the most recently saved thumbnail by accessing the folder where the thumbnai
 
 # Happy Coding :)
 
-### Written by [SungBin](https://github.com/sungbin5304)
+### Written by [SungBin](https://github.com/sungbin5304) and [PartWorm](https://github.com/PartWorm).
