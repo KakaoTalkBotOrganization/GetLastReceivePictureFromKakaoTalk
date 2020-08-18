@@ -8,10 +8,9 @@ Get the most recently saved thumbnail by accessing the folder where the thumbnai
 
 # Download
 `GPFKT` is supported two language; `JavaScript` and `Java`
-1. [Download `Java`](https://github.com/sungbin5304/GetLastReceivePictureFromKakaoTalk/blob/master/PicturePathManager.java)
-2. [Download `JavaScript`](https://github.com/sungbin5304/GetLastReceivePictureFromKakaoTalk/blob/master/PicturePathManager.js)
-
-- [ ] 3. Download `Kotlin`
+- [x] [Download `Java`](https://github.com/sungbin5304/GetLastReceivePictureFromKakaoTalk/blob/master/PicturePathManager.java)
+- [x] [Download `JavaScript`](https://github.com/sungbin5304/GetLastReceivePictureFromKakaoTalk/blob/master/PicturePathManager.js)
+- [ ] Download `Kotlin`
 
 # Usage
 1. Copy all source-code.
