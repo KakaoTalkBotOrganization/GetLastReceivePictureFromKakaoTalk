@@ -7,7 +7,7 @@
 Get the thumbnail image of most recently received photo from the folder where KakaoTalk stores the downloaded photos.
 
 # Download
-`GPFKT` is supported two language; `JavaScript` and `Java`
+`GPFKT` is supported in two language; `JavaScript` and `Java`
 - [x] [Download `Java`](https://github.com/sungbin5304/GetLastReceivePictureFromKakaoTalk/blob/master/PicturePathManager.java)
 - [x] [Download `Javascript`](https://github.com/sungbin5304/GetLastReceivePictureFromKakaoTalk/blob/master/PicturePathManager.js)
 - [ ] Download `Kotlin`
