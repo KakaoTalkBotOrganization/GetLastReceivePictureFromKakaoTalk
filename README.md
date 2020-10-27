@@ -10,7 +10,7 @@ Get the thumbnail image of most recently received photo from the folder where Ka
 `GPFKT` is supported in two language; `JavaScript` and `Java`
 - [x] [Download `Java`](https://github.com/sungbin5304/GetLastReceivePictureFromKakaoTalk/blob/master/PicturePathManager.java)
 - [x] [Download `Javascript`](https://github.com/sungbin5304/GetLastReceivePictureFromKakaoTalk/blob/master/PicturePathManager.js)
-- [ ] Download `Kotlin`
+- [ ] Download `Kotlin` // todo
 
 # Usage
 1. Copy all the source code.
