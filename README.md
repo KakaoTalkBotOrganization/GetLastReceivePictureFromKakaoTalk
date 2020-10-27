@@ -21,5 +21,3 @@ Get the thumbnail image of most recently received photo from the folder where Ka
 `GPFKT` license is under the [`Apache`](https://github.com/KakaoTalkBotOrganization/GetLastReceivePictureFromKakaoTalk/blob/master/LICENSE) license.
 
 # Happy Coding :)
-
-### Written by [SungBin](https://github.com/sungbin5304) and [PartWorm](https://github.com/PartWorm).
