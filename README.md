@@ -18,6 +18,6 @@ Get the thumbnail image of most recently received photo from the folder where Ka
 3. Call the `getLastPicture()` method to get the thumbnail image of most recently received photo as `base64` string.
 
 # License
-`GPFKT` license is under the [`Apache`](https://github.com/KakaoTalkBotOrganization/GetLastReceivePictureFromKakaoTalk/blob/master/LICENSE) license.
+`GPFKT` license is under the [`Apache-2.0`](https://github.com/KakaoTalkBotOrganization/GetLastReceivePictureFromKakaoTalk/blob/master/LICENSE) license.
 
 # Happy Coding :)
