@@ -32,7 +32,7 @@ public class PicturePathManager{
         File[] list = file.listFiles();
         Arrays.sort(list, new ModifiedDate());
         return list;
-    }
+    }ㅁㅁㅁ
 
     public static String getLastPicture(){
         try{
