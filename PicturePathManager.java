@@ -9,6 +9,8 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Objects;
 
+import javax.annotation.Nullable;
+
 public class PicturePathManager {
     private static final String sdcard = Environment.getExternalStorageDirectory().getAbsolutePath();
     private static final String PICTURE_PATH = sdcard + "/Android/data/com.kakao.talk/contents/Mg==";
@@ -33,6 +35,7 @@ public class PicturePathManager {
         return list;
     }
 
+    @Nullable
     public static String getLastPicture(){
         try{
             File[] path = getLastPictureFilePathFromFoldPath(getLastPictureFolderPath());
