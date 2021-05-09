@@ -21,8 +21,7 @@ public class PictureManager {
 
     @NotNull
     public static String getKakaoTalkLastPictureFolderPath() {
-        File file = new File(KAKAOTALK_PICTURE_PATH);
-        File[] list = file.listFiles();
+        File[] list = new File(KAKAOTALK_PICTURE_PATH).listFiles();
         Arrays.sort(Objects.requireNonNull(list), new ModifiedDate());
         return list[0].toString();
     }
@@ -38,15 +37,13 @@ public class PictureManager {
     public static String getKakaoTalkLastPictureBase64() {
         try {
             File[] path = getKakaoTalkLastPictureFilePathFromFoldPath(getKakaoTalkLastPictureFolderPath());
-            for (File value : path) {
-                File file = new File(value.toString());
+            for (File file : path) {
                 if (Objects.requireNonNull(file.listFiles()).length > 0) {
-                    String picture = getKakaoTalkLastPictureFilePathFromFoldPath(file.getPath())[0].toString();
-                    Bitmap bm = BitmapFactory.decodeFile(picture);
                     ByteArrayOutputStream baos = new ByteArrayOutputStream();
-                    bm.compress(Bitmap.CompressFormat.PNG, 100, baos);
-                    byte[] bImage = baos.toByteArray();
-                    return Base64.encodeToString(bImage, 0);
+                    BitmapFactory.decodeFile(getKakaoTalkLastPictureFilePathFromFoldPath(file.getPath())[0].toString())
+                        .compress(Bitmap.CompressFormat.PNG, 100, baos);
+                    
+                    return Base64.encodeToString(baos.toByteArray(), 0);
                 }
             }
             return null;
